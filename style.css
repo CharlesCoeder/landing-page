@@ -2,26 +2,44 @@ body {
 
 }
 
+img {
+    width: 150px;
+    height: 150px;
+}
+
+
 .header {
+    background-color: #fa583c;
+    height: 64px;
 
 }
 
 .section {
-    
+    height: 300px;
+
 }
 
 .one {
+    background-color: #fa583c;
 
 }
 
 .two {
+    background-color: #ffffff;
 
 }
 
 .three {
+    background-color: #E5E7EB;
 
 }
 
 .four {
+    background-color: #ffffff;
 
+
+}
+
+.footer {
+    background-color: #fa583c;
 }
