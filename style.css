@@ -20,16 +20,47 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fa583c;
     height: 64px;
 
 }
 
 
 #logo { 
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 900;
     color: white;
+}
+
+#hero-big {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+
+#hero-small, .header ul, #call-small {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#call-big {
+    font-size: 24px;
+    font-weight: 600;   
+}
+
+#information {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#quote-text {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+#quote-author {
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .header ul {
@@ -43,13 +74,16 @@ body {
     height: 500px;
 }
 
-.one {
+.header, .one, .footer {
     background-color: #fa583c;
 
 }
 
-.two {
+.two, .four {
     background-color: #ffffff;
+}
+
+.two {
     flex-wrap: wrap;
 
 }
@@ -59,12 +93,13 @@ body {
 
 }
 
-.four {
-    background-color: #ffffff;
-
-
+.four .small{
+    color: white;
+    background-color: #3882F6;
 }
 
 .footer {
-    background-color: #fa583c;
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
 }
