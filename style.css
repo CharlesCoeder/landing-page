@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -9,16 +11,36 @@ body {
     height: 150px;
 }
 
+.header, .footer, .section {
+    padding-left: 250px;
+    padding-right: 250px;
+}
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #fa583c;
     height: 64px;
 
 }
 
-.section {
-    height: 300px;
 
+#logo { 
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+}
+
+.header ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.section {
+    display: flex;
+    height: 500px;
 }
 
 .one {
@@ -28,6 +50,7 @@ body {
 
 .two {
     background-color: #ffffff;
+    flex-wrap: wrap;
 
 }
 
