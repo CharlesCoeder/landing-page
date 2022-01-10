@@ -6,6 +6,11 @@ body {
 
 }
 
+.one {
+    align-items: center;
+    justify-content: space-between;
+}
+
 .smallimage {
     width: 150px;
     height: 150px;
@@ -16,12 +21,18 @@ body {
     padding-right: 250px;
 }
 
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 64px;
 
+}
+
+.one img {
+    height: 360px;
+    width: 540px;
 }
 
 
@@ -35,6 +46,12 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: white;
+}
+
+#hero-small {
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #hero-small, .header ul, #call-small {
@@ -70,8 +87,10 @@ body {
 }
 
 .section {
-    display: flex;
-    height: 500px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    display: flex;  
+    height: 400px;
 }
 
 .header, .one, .footer {
@@ -93,7 +112,7 @@ body {
 
 }
 
-.four .small{
+.four .small, .signup{
     color: white;
     background-color: #3882F6;
 }
@@ -102,4 +121,12 @@ body {
     font-size: 18px;
     font-weight: 200;
     font-style: italic;
+}
+
+.signup {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 800;
 }
