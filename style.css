@@ -12,8 +12,9 @@ body {
 }
 
 .smallimage {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
 }
 
 .header, .footer, .section {
@@ -66,7 +67,7 @@ body {
 
 #information {
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 800;   
 }
 
 #quote-text {
@@ -104,7 +105,24 @@ body {
 
 .two {
     flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+}
 
+
+.two .images {
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.images .image {        
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
 
 .three {
