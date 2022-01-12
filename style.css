@@ -141,9 +141,15 @@ body {
 }
 
 .footer {
-    font-size: 18px;
+    display: flex;
+    height: 100px;
+    font-size: 26px;
     font-weight: 200;
     font-style: italic;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .signup {
