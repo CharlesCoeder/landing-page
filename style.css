@@ -79,6 +79,8 @@ body {
 #quote-author {
     font-size: 30px;
     font-weight: 800;
+    align-self: flex-end;
+    margin-right: 175px;
 }
 
 .header ul {
@@ -126,9 +128,12 @@ body {
 }
 
 .three {
+    flex-direction: column;
     background-color: #E5E7EB;
-
+    align-items: center;
+    justify-content: center;
 }
+
 
 .four .small, .signup{
     color: white;
