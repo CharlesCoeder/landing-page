@@ -18,13 +18,13 @@ body {
 }
 
 .header, .footer, .section {
+    display: flex;
     padding-left: 250px;
     padding-right: 250px;
 }
 
 
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     height: 64px;
@@ -92,7 +92,6 @@ body {
 .section {
     padding-top: 50px; 
     padding-bottom: 50px;
-    display: flex;  
     height: 400px;
 }
 
@@ -142,7 +141,6 @@ body {
 }
 
 .footer {
-    display: flex;
     height: 100px;
     font-size: 26px;
     font-weight: 200;
